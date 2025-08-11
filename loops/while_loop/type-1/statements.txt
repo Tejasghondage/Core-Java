@@ -1,0 +1,15 @@
+1) Write a Program To print 1 to 25 nos.
+2) Write a Program To print 25 to 1 nos.
+3) Write a Program To print 1 to 100 Odd nos.
+4) Write a Program To print 1 to 100 even nos.
+5) Write a Program To print sum of 1 to 50 Odd nos.
+6) Write a Program To print sum of 1 to 50 EVEN nos.
+7) Write a Program To print -45 to +45 nos. // negative no and positive no
+8) Write a Program To print 50 to 100 nos.
+9) Write a Program To print sum of odd and even no.
+10) Write a Program To print even and odd No
+11) Write a Program To print 1 to 100 no.
+12) Write a Program To print 100 to 1 no.
+13) Write a Program To print 30 to 50 no.
+14) Write a Program To print count of even No 1 to 25 no.
+15) Write a Program To print count of odd No 1 to 25 no
