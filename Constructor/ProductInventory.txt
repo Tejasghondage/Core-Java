@@ -1,0 +1,21 @@
+Assignment Title: "Creating a Product Inventory Class with Constructors"
+Problem Description:
+You are tasked with creating a Java class to represent products in an
+inventory system. The class should have constructors to initialize product
+objects with basic information. You'll then create instances of this class and
+demonstrate how to use constructors effectively.
+Requirements:
+Create a Java class named Product with the following attributes:
+productId (int): An integer to store the product's ID.
+productName (String): A string to store the name of the product.
+price (double): A double to store the price of the product.
+quantityInStock (int): An integer to store the quantity of the product in stock.
+Implement a parameterized constructor in the Product class that takes
+arguments to initialize the attributes mentioned above.
+Implement a default constructor in the Product class that initializes the
+attributes with default values (e.g., productId = 0, productName = "", price =
+0.0, quantityInStock = 0).
+Create at least two objects of the Product class using both the default
+constructor and the parameterized constructor.
+Demonstrate how to update the quantity of products in stock and print the
+product information (attributes) after each update.

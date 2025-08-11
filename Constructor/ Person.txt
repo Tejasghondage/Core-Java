@@ -1,0 +1,12 @@
+Problem Statement: Create a Java Class for a Person to demonstrate the use
+of Constructor.
+Create a Java class called Person to represent a person. The Person class should have the following
+attributes:
+1. name (string) - The name of the person.
+2. age (int) - The age of the person.
+Implement a parameterized constructor for the Person class that takes the name and age as
+parameters and initializes these attributes.
+In your main method, create instances of the Person class to represent different people, and
+then display their names and ages.
+Your task is to complete the Person class by implementing the constructor as described. Then, create
+instances of the Person class in the main method and display their names and ages.

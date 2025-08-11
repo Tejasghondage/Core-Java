@@ -1,0 +1,22 @@
+Problem Statement: Create a Java project for a Library Management
+Create a Java class called LibraryBook to represent a book in a library. The LibraryBook class should
+have the following attributes:
+1. title (string) - The title of the book.
+2. author (string) - The author of the book.
+3. isbn (string) - The International Standard Book Number (ISBN) of the book.
+4. available (boolean) - A flag indicating whether the book is available for borrowing.
+Implement a parameterized constructor for the LibraryBook class that takes the title, author,
+and ISBN as parameters and initializes these attributes. The available attribute should be set to true
+by default when a book is created.
+Additionally, create a method called borrowBook that allows a user to borrow the book. This
+method should set the available attribute to false when the book is borrowed.
+Create another method called returnBook that allows a user to return the book. This method
+should set the available attribute back to true when the book is returned.
+In your main method, create Object of the LibraryBook class to represent different books in
+the library. Demonstrate the use of constructors, the borrowBook, and returnBook methods by
+simulating book borrowing and returning scenarios.
+
+Your task is to complete the LibraryBook class by implementing the constructor, borrowBook,
+and returnBook methods as described. Then, create instances of the LibraryBook class in the
+main method and demonstrate the use of these methods to simulate book borrowing and
+returning.
