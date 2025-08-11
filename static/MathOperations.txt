@@ -1,0 +1,17 @@
+TheKiranAcademy
+Problem Statement:
+Create a Java program that illustrates the use of a `static` method for performing a basic
+mathematical operation.
+Requirements:
+1. Create a class named "MathOperations."
+2. Inside the "MathOperations" class, define a `static` method named "add" that takes two integers
+as parameters and returns their sum.
+3. In the "Main" class, use the "add" method to perform addition operations on two sets of numbers
+and display the results.
+Sample Output:
+```
+Adding 5 and 7: 12
+Adding 10 and 20: 30
+```
+Ensure that your Java program effectively demonstrates the use of a `static` method for performing
+addition and displaying the results.

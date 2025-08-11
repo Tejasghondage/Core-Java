@@ -1,0 +1,21 @@
+Create a Java program that models a simple BankAccount class. The class should have the
+following features:
+1. Instance Variables:
+o accountNumber (String)
+o accountHolder (String)
+o balance (double)
+2. Static Variable:
+o bankName (String) - a common name for all accounts.
+3. Constructors:
+o A constructor that takes accountNumber, accountHolder, and balance as
+parameters.
+o A no-argument constructor that initializes the accountNumber and
+accountHolder to "Unknown" and balance to 0.0.
+4. Methods:
+o deposit(double amount): Adds the given amount to the balance.
+o withdraw(double amount): Subtracts the given amount from the balance if
+sufficient funds are available.
+o printAccountDetails(): Prints the account details, including the bank
+name.
+5. Static Method:
+o setBankName(String name): Sets the bankName for the bank.

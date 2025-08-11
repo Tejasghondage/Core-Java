@@ -1,0 +1,23 @@
+Create a Java program that models an Employee class. The class should have the following
+features:
+1. Instance Variables:
+o employeeId (String)
+o employeeName (String)
+o salary (double)
+2. Static Variables:
+o companyName (String) - a common name for all employees.
+o employeeCount (int) - a counter to track the total number of employees.
+3. Constructors:
+o A constructor that takes employeeId, employeeName, and salary as
+parameters.
+o A no-argument constructor that initializes employeeId and employeeName to
+"Unknown" and salary to 0.0.
+4. Methods:
+o raiseSalary(double amount): Increases the salary by the given amount.
+o printEmployeeDetails(): Prints the employee details, including the
+company name.
+5. Static Methods:
+o setCompanyName(String name): Sets the companyName for the company.
+o printEmployeeCount(): Prints the total number of employees.
+o printAllEmployees(Employee[] employees): Prints the details of all
+employees in the given array.

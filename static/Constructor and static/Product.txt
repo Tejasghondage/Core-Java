@@ -1,0 +1,26 @@
+Create a Java program that models a Product class for a grocery store. The class should have
+the following features:
+1. Instance Variables:
+o productId (String)
+o productName (String)
+o price (double)
+o quantity (int)
+2. Static Variables:
+o storeName (String) - a common name for all products.
+o totalProducts (int) - a counter to track the total number of products.
+3. Constructors:
+o A constructor that takes productId, productName, price, and quantity as
+parameters.
+o A no-argument constructor that initializes productId and productName to
+"Unknown", price to 0.0, and quantity to 0.
+4. Methods:
+o addStock(int amount): Increases the quantity by the given amount.
+o sellProduct(int amount): Decreases the quantity by the given amount if
+enough stock is available.
+o printProductDetails(): Prints the product details, including the store
+name.
+5. Static Methods:
+o setStoreName(String name): Sets the storeName for the store.
+o printTotalProducts(): Prints the total number of products.
+o printAllProducts(Product[] products): Prints the details of all products
+in the given array.
