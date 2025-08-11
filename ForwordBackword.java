@@ -1,20 +1,25 @@
-package loops.second;
+package whileLoop.second;
 
 public class ForwordBackword {
-void printpattern(int n)
-{
-	int i;
-	for(i=0;i<n;i++)
+	void printSeries()
 	{
-		System.out.print((i+1)+" ");
+		int i=1;
+		while(i<=5)
+		{
+			System.out.print(i+" ");
+			i++;
+		}
+		i-=2;
+		while(i>0)
+		{
+			System.out.print(i+" ");
+			i--;
+		}
 	}
-	for(int j = i-1  ; j >0;j--)
-	{
-		System.out.print(j+" ");
-	}
-}
 public static void main(String[] args) {
-	ForwordBackword f=new ForwordBackword();
-	f.printpattern(5);
+	
+	ForwordBackword f = new ForwordBackword();
+	f.printSeries();
+			
 }
 }

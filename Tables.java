@@ -1,15 +1,18 @@
-package loops.second;
+package whileLoop.second;
 
 public class Tables {
-	void printTables(int n)
+
+	void printTable(int n )
 	{
-	 for(int i=1; i<=10;i++)
-	 {
-		 System.out.print(+n*i+" ");
-	 }
+		int i = 1;
+		while(i<=10)
+		{
+			System.out.print(i*n+" ");
+			i++;
+		}
 	}
-public static void main(String[] args) {
-	Tables t = new Tables();
-	t.printTables(9);
-}
+	public static void main(String[] args) {
+		Tables t = new Tables();
+		t.printTable(9);
+	}
 }
