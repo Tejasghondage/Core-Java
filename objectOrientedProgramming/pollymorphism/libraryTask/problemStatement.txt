@@ -1,0 +1,30 @@
+Problem Statement: Implementing Method Overloading and Method
+Overriding in a Library System
+As a fresher in the field of software development, you have been tasked with creating a
+library management system that demonstrates your knowledge of method overloading and method
+overriding in object-oriented programming. The library system should be able to handle various
+types of library materials, including books, e-books, and DVDs.
+Your program should include the following classes:
+1. **LibraryItem:**
+ - This is the base class representing a generic library item.
+ - It should have attributes such as `title`, `author`, and `location`.
+ - Implement a method called `displayInfo` that displays basic information about the item.
+2. **Book:**
+ - A derived class from the LibraryItem class.
+ - It should have additional attributes like `genre` and `numberOfPages`.
+ - Implement method overriding for the `displayInfo` method to display specific information about
+books.
+3. **EBook:**
+ - Another derived class from the LibraryItem class.
+ - It should include attributes like `format` (e.g., PDF, ePub) and `fileSize`.
+ - Implement method overriding for the `displayInfo` method to display specific information about
+e-books.
+4. **DVD:**
+ - A third derived class from the LibraryItem class.
+ - It should have attributes like `director` and `runTime`.
+ - Implement method overriding for the `displayInfo` method to display specific information about
+DVDs.
+Your program should allow the user to:
+- Create different types of library items (books, e-books, DVDs).
+- Display information about specific items.
+- Search for items based on various criteria, such as title, author, or location.
