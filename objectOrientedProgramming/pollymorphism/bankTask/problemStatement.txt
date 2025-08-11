@@ -1,0 +1,26 @@
+Problem Statement: Implementing Method Overloading and Method
+Overriding for a Simple Banking System
+As a fresher, you are tasked with demonstrating your understanding of method overloading
+and method overriding in object-oriented programming. You are required to create a simple banking
+system with different account types and transaction operations.
+Your program should have the following classes:
+1. **Account:**
+ - This is the base class representing a generic bank account.
+ - It should have attributes like `accountNumber`, `accountHolder`, `balance`, and methods like
+`deposit`, `withdraw`, and `displayAccountInfo`.
+ - The `withdraw` method should be overloaded to handle different transaction types.
+2. **SavingsAccount:**
+ - A derived class from the Account class.
+ - Implement method overriding for the `withdraw` method to allow for additional functionality for
+savings accounts (e.g., limiting the number of withdrawals per month).
+3. **CurrentAccount:**
+ - Another derived class from the Account class.
+ - Implement method overriding for the `withdraw` method to allow for different transaction
+processing compared to savings accounts.
+Your program should demonstrate the concept of method overloading and method overriding, as
+well as proper usage of inheritance. Here are some guidelines to follow:
+- The program should allow the user to create both savings and current accounts, perform deposits,
+and withdrawals for both types of accounts.
+- For savings accounts, implement rules to restrict the number of withdrawals within a month.
+- For current accounts, implement specific rules for handling overdrafts or allowing unlimited
+withdrawals.
